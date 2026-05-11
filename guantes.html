@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Catálogo de Guantes | CrossMotos</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="catalogo-page">
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+
+  <div class="container">
+
+    <!-- LOGO -->
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" alt="CrossMotos">
+    </a>
+
+    <!-- BOTON MOBILE -->
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <!-- MENU -->
+    <div class="collapse navbar-collapse" id="menu">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            Inicio
+          </a>
+        </li>
+
+        <!-- DROPDOWN -->
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle active"
+             href="#"
+             id="productosDropdown"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+
+            Productos
+
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-dark">
+
+            <li>
+                <a class="dropdown-item" href="catalogo.html">
+                    Cascos
+                </a>
+                </li>
+
+                <li>
+                <a class="dropdown-item" href="luces.html">
+                    Luces LED
+                </a>
+                </li>
+
+                <li>
+                <a class="dropdown-item active" href="guantes.html">
+                    Guantes
+                </a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="proximamente.html">
+            Proximamente
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contacto">
+            Contacto
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="catalogo-hero">
+
+  <div class="container">
+
+    <div class="hero-glass">
+
+      <span class="hero-badge">
+        <i class="bi bi-shield-check"></i>
+        Protección y estilo 2026
+      </span>
+
+      <h1>
+        Guantes <span>Premium</span>
+      </h1>
+
+      <p>
+        Guantes de alta protección y diseño deportivo
+        para motociclistas exigentes.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#productos" class="btn btn-custom btn-lg">
+          <i class="bi bi-grid"></i>
+          Ver Catálogo
+        </a>
+
+        <a href="https://wa.me/573158620934"
+           target="_blank"
+           class="btn btn-outline-light btn-lg">
+
+          <i class="bi bi-whatsapp"></i>
+          WhatsApp
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PRODUCTOS -->
+
+<section class="productos-section py-5" id="productos">
+
+  <div class="container">
+
+    <!-- TITULO -->
+
+    <div class="section-header text-center mb-5">
+
+      <h2 class="section-title">
+        Nuestros Guantes
+      </h2>
+
+      <p>
+        Máxima comodidad, agarre y seguridad para cada recorrido.
+      </p>
+
+    </div>
+
+    <!-- PRODUCTOS -->
+
+    <div class="row g-4">
+
+      <!-- PRODUCTO 1 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/guante1.jpg" alt="Guantes Racing">
+
+            <span class="product-badge">
+              Top
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>Racing Pro</h5>
+
+            <p>
+              Protección premium para velocidad extrema.
+            </p>
+
+            <div class="price">
+              $189.000
+            </div>
+
+            <a href="https://wa.me/573158620934"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 2 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/guante2.jpg" alt="Guantes Urban">
+
+            <span class="product-badge oferta">
+              Oferta
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>Urban Black</h5>
+
+            <p>
+              Estilo moderno y gran comodidad.
+            </p>
+
+            <div class="price">
+              $120.000
+            </div>
+
+            <a href="https://wa.me/573158620934"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 3 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/guante3.jpg" alt="Guantes Touring">
+
+            <span class="product-badge">
+              Nuevo
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>Touring Max</h5>
+
+            <p>
+              Perfectos para viajes largos.
+            </p>
+
+            <div class="price">
+              $155.000
+            </div>
+
+            <a href="https://wa.me/573158620934"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/guante4.jpg" alt="Guantes Carbon">
+
+            <span class="product-badge oferta">
+              Premium
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>Carbon X</h5>
+
+            <p>
+              Máxima protección y diseño deportivo.
+            </p>
+
+            <div class="price">
+              $220.000
+            </div>
+
+            <a href="https://wa.me/573158620934"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- BENEFICIOS -->
+
+<section class="beneficios py-5">
+
+  <div class="container">
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+
+        <div class="benefit-box text-center">
+
+          <i class="bi bi-shield-lock"></i>
+
+          <h5>Alta Protección</h5>
+
+          <p>
+            Materiales resistentes para mayor seguridad.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="benefit-box text-center">
+
+          <i class="bi bi-hand-index-thumb"></i>
+
+          <h5>Mejor Agarre</h5>
+
+          <p>
+            Control total en cualquier clima.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="benefit-box text-center">
+
+          <i class="bi bi-stars"></i>
+
+          <h5>Diseño Premium</h5>
+
+          <p>
+            Estilo moderno para motociclistas exigentes.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- WHATSAPP -->
+
+<a href="https://wa.me/573158620934"
+   class="whatsapp"
+   target="_blank">
+
+  <i class="bi bi-whatsapp"></i>
+
+</a>
+
+<!-- FOOTER -->
+
+<footer class="text-center py-4">
+
+  <p class="mb-0">
+    © 2026 CrossMotos - Todos los derechos reservados
+  </p>
+
+</footer>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

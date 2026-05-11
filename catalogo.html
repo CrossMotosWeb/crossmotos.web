@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Catálogo de Cascos | CrossMotos</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="catalogo-page">
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+
+  <div class="container">
+
+    <!-- LOGO -->
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" alt="CrossMotos">
+    </a>
+
+    <!-- BOTON MOBILE -->
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+    
+
+    <!-- MENU -->
+    <div class="collapse navbar-collapse" id="menu">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            Inicio
+          </a>
+        </li>
+
+        <!-- DROPDOWN -->
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle active"
+             href="#"
+             id="productosDropdown"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+
+            Productos
+
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-dark">
+
+            <li>
+              <a class="dropdown-item active" href="catalogo.html">
+                Cascos
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="luces.html">
+                Luces LED
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="guantes.html">
+                Guantes
+              </a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="proximamente.html">
+            Proximamente
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contacto">
+            Contacto
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="catalogo-hero">
+
+  <div class="container">
+
+    <div class="hero-glass">
+
+      <span class="hero-badge">
+        <i class="bi bi-stars"></i>
+        Nueva colección 2026
+      </span>
+
+      <h1>
+        Cascos <span>Premium</span>
+      </h1>
+
+      <p>
+        Seguridad, estilo y tecnología para motociclistas que buscan
+        una experiencia premium en cada recorrido.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#productos" class="btn btn-custom btn-lg">
+          <i class="bi bi-grid"></i>
+          Ver Catálogo
+        </a>
+
+        <a href="https://wa.me/573158620934"
+           target="_blank"
+           class="btn btn-outline-light btn-lg">
+
+          <i class="bi bi-whatsapp"></i>
+          WhatsApp
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PRODUCTOS -->
+
+<section class="productos-section py-5" id="productos">
+
+  <div class="container">
+
+    <!-- TITULO -->
+
+    <div class="section-header text-center mb-5">
+
+      <h2 class="section-title">
+        Nuestros Cascos
+      </h2>
+
+      <p>
+        Diseños exclusivos con máxima protección y acabados modernos.
+      </p>
+
+    </div>
+
+    <!-- PRODUCTOS -->
+
+    <div class="row g-4">
+
+      <!-- PRODUCTO 1 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/sh212.png" alt="SHAFT 212">
+
+            <span class="product-badge">
+              Top
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>SHAFT 212</h5>
+
+            <p>
+              GRAFICO: TRICK
+            </p>
+
+            <div class="price">
+              $369.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20Casco%20Shaft%20212"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 2 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/sh226.png" alt="SHAFT 226">
+
+            <span class="product-badge oferta">
+              Oferta
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>SHAFT 226SP</h5>
+
+            <p>
+              SOLID
+            </p>
+
+            <div class="price">
+              $429.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20Shaft%20227SP"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 3 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/x500rs.png" alt="X ONE 500 RS">
+
+            <span class="product-badge">
+              Nuevo
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X ONE 500 RS</h5>
+
+            <p>
+              GRAFICO: OROCHI
+            </p>
+
+            <div class="price">
+              $265.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20XONE%20500%20RS"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCTO 4 -->
+
+      <div class="col-md-6 col-lg-3">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="img/cascos/xsportsv151.png" alt="X SPORTS V151">
+
+            <span class="product-badge oferta">
+              SOLID
+            </span>
+
+          </div>
+
+          <div class="card-body text-center">
+
+            <h5>X SPORTS V151</h5>
+
+            <p>
+              SOLID.
+            </p>
+
+            <div class="price">
+              $499.000
+            </div>
+
+            <a href="https://wa.me/573158620934?text=Hola,%20quiero%20comprar%20el%20X%20SPORTS%20V151"
+               target="_blank"
+               class="btn btn-custom w-100 mt-3">
+
+              <i class="bi bi-whatsapp"></i>
+              Comprar
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- BENEFICIOS -->
+
+<section class="beneficios py-5">
+
+  <div class="container">
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+
+        <div class="benefit-box text-center">
+
+          <i class="bi bi-shield-check"></i>
+
+          <h5>Máxima Seguridad</h5>
+
+          <p>
+            Cascos certificados con materiales premium.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="benefit-box text-center">
+
+          <i class="bi bi-truck"></i>
+
+          <h5>Envíos Rápidos</h5>
+
+          <p>
+            Atención inmediata y entregas seguras.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="benefit-box text-center">
+
+          <i class="bi bi-headset"></i>
+
+          <h5>Asesoria</h5>
+
+          <p>
+            Asesoría personalizada para cada compra.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- WHATSAPP -->
+
+<a href="https://wa.me/573158620934"
+   class="whatsapp"
+   target="_blank">
+
+  <i class="bi bi-whatsapp"></i>
+
+</a>
+
+<!-- FOOTER -->
+
+<footer class="text-center py-4">
+
+  <p class="mb-0">
+    © 2026 CrossMotos - Todos los derechos reservados
+  </p>
+
+</footer>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
