@@ -6,6 +6,10 @@
 
   <title>CrossMotos | Accesorios y Cascos</title>
 
+<link rel="icon" type="image/png" href="img/logo1.png">
+<link rel="shortcut icon" href="img/logo1.png" type="image/png">
+<link rel="apple-touch-icon" href="img/logo1.png">
+
   <meta name="description"
         content="Accesorios, cascos y lujos para motociclistas en Pasto.">
 
@@ -26,8 +30,31 @@
 
 <body>
 
-<!-- NAVBAR -->
+<!-- PROMO BAR -->
+<a href="promociones.html"
+   class="promo-bar"
+   id="promoBar">
 
+  <div class="promo-glow"></div>
+
+  <span class="promo-icon">
+    🔥
+  </span>
+
+  <span class="promo-text">
+    Promoción del mes:
+    <strong>Cascos desde $199.000</strong>
+    + instalación gratis
+  </span>
+
+  <!-- BOTON CERRAR -->
+  <button class="promo-close" id="closePromo">
+    <i class="bi bi-x-lg"></i>
+  </button>
+
+</a>
+
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
 
   <div class="container">
@@ -88,7 +115,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item active" href="guantes.html">
+              <a class="dropdown-item" href="guantes.html">
                 Guantes
               </a>
             </li>
@@ -104,8 +131,8 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="index.html#contacto">
-            Contacto
+          <a class="nav-link" href="promociones.html">
+            Promociones
           </a>
         </li>
 
@@ -463,13 +490,15 @@
 
   <p class="mb-0">
     © 2026 CrossMotos - Todos los derechos reservados
-  </p>
+  </p>  
 
 </footer>
 
 <!-- Bootstrap JS -->
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+<script src="script.js"></script>
 
 </body>
 </html>
